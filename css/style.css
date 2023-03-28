@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,700&display=swap'); /*Montserrat*/
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap'); /*Fraunces*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Montserrat, Fraunces,sans-serif;
+    background-color: hsl(30, 38%, 92%);
+    padding-top: 5rem;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.main img{
+    height: 50%;
+    width: 22%;
+    border-radius: 0.3rem;
+}
+
+.second{
+    display: flex;
+    gap: 1.5rem;
+}
+
+.second div {
+    font-family:Fraunces ;
+    font-size: 2rem;
+    font-weight: 800;
+    
+}
+
+.main  button{
+ border-radius: 0.5rem;
+ padding: 0.6rem 5rem;
+ margin-left: 2rem;
+ margin-top: 2rem;
+ 
+    
+}
+
+.first{
+    border: 1px solid white ;
+    background-color: white;
+    border-radius: 0.2rem;
+}
+
+.main  h3{
+    padding-left: 2rem;
+    padding-top: 1.2rem;
+    word-spacing: 2rem;
+    color: gray;
+    font-size: 0.9rem;
+    
+    
+}
+
+.first h1{
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-family:Fraunces ;
+    line-height: 2rem;
+}
+
+.first p{
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-family: Montserrat;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.7rem;
+    font-weight: 600;
+}
+
+.second > div{
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+    color: hsl(158, 36%, 37%);
+}
+
+.second h4{
+    padding-top: 2rem;
+    padding-right: 3.5rem;
+    color: hsl(228, 12%, 48%);
+}
+
+.first > button{
+    padding-top: 1rem;
+    margin-right: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    background-color: hsl(158, 36%, 37%);
+    color:  hsl(0, 0%, 100%);
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+}
+
+button pre{
+    font-family: Montserrat;
+}
